@@ -1,8 +1,8 @@
 import socket
 
-localIP = "192.168.0.102"
+localIP = "localhost"
 localPort = 1234
-bufferSize = 2048
+bufferSize = 1024
 
 msgFromServer = "Hellow UDP Client"
 bytesToSend = str.encode(msgFromServer)
